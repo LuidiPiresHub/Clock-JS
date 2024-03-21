@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# Relógio Analógico Romano em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Este é um projeto de um relógio analógico romano desenvolvido em React com TypeScript. Ele exibe a hora atual em algarismos romanos.
 
-Currently, two official plugins are available:
+## Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Você pode ver o relógio em ação [clicando aqui](https://luidi-pires-clock-js.vercel.app).
 
-## Expanding the ESLint configuration
+## Como usar
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone este repositório:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```
+git clone git@github.com:LuidiPiresHub/Clock-JS.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Instale as dependências:
+
+```
+npm install
+```
+
+3. Inicie o servidor de desenvolvimento:
+
+```
+npm run dev
+```
+
+4. Acesse o aplicativo em seu navegador:
+
+```
+http://localhost:3000
+```
+
+## Tecnologias utilizadas
+
+- React
+- TypeScript
+- Vite
